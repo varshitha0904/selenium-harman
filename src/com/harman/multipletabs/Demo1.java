@@ -34,8 +34,8 @@ public class Demo1 {
 		
 		driver.findElement(By.id("input_go")).click();
 		
-		String actualError = driver.findElement(By.xpath("(//div[@class='alert alert-danger'])[3]")).getText();
-		System.out.println(actualError);)
+		String actualError=driver.findElement(By.xpath("(//div[@class='alert alert-danger'])[3]")).getText();
+		System.out.println(actualError);
 		
 		//driver.close();
 
